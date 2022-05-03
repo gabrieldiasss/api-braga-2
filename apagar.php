@@ -19,7 +19,7 @@ if ($id) {
     if ($delete_produto->rowCount()) {
         $response = [
             "erro" => false,
-            "Mensagem" => "Produto apagado com sucesso!"
+            "Mensagem" => "Produto apagado com sucesso"
         ];
     } else {
         $response = [

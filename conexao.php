@@ -5,4 +5,14 @@ $user = "admin";
 $pass = "braga1001";
 $dbname = "dbprodutos";
 
-$conn = new PDO("mysql:host=$host;dbname=" . $dbname, $user, $pass);
+/*if ($conn = new PDO("mysql:host=$host;dbname=" . $dbname, $user, $pass)) {
+    echo "funcionou";
+} else {
+    echo "deu ruim";
+}*/
+
+if ($conn = new PDO("mysql:host=$host;dbname=" . $dbname, $user, $pass)) {
+    echo "funcionou";
+} else {
+    echo "deu ruim";
+}

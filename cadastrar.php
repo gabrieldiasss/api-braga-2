@@ -23,7 +23,7 @@ if ($dados) {
 if ($cad_produto->rowCount()) {
     $response = [
         "erro" => false,
-        "mensagem" => "Produto cadastrado com sucesso!"
+        "mensagem" => "Produto cadastrado com sucess"
     ];
 } else {
     $response = [
